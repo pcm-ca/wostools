@@ -1,5 +1,5 @@
 flake8==3.8.4
-coverage==5.3
+coverage==5.5
 
 pytest==6.1.2
 pytest-runner==5.2
