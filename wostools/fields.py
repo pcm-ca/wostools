@@ -1,6 +1,7 @@
 """
 The wos fields definitions.
 """
+# TODO: Move this file to sources
 
 import collections
 import functools
@@ -186,6 +187,7 @@ FIELDS = {
 
 
 def parse(key: str, value: List) -> Dict:
+    # TODO: move as a constant.
     if key in {"FN", "VR", "ER"}:
         # This disregards headers
         return {}
